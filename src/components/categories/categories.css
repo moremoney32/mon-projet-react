@@ -1,0 +1,28 @@
+@media screen and (max-width:767px) {
+    .bloc-categories {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        background: #F6F9FC;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .sous-bloc-categories{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .sous-bloc-categories-child{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        font-size: 16px;
+        color: darkgray;
+    }
+    
+    
+}

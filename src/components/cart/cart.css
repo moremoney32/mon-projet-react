@@ -1,0 +1,326 @@
+.bloc-cart{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F6F9FC;
+    display: flex;
+    flex-direction: column;
+    gap: 30px !important;
+    margin-top: 15px;
+}
+.bloc-cart-header{
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.nav-panier{
+    text-decoration: none;
+    color: white;
+}
+.nav-panier-achats{
+    text-decoration: none;
+    color:#D23F57;
+}
+.mon-panier{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    background: #D23F57;
+    border-radius: 20px;
+}
+.corde-panier{
+    padding-top: 5px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #fce9ef;
+}
+ .corde-paniers{
+    padding-top: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fce9ef;
+
+}
+.fournisseurs{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #D23F57;
+    font-size: 18px;
+    text-align: center;
+    background: #fce9ef;
+    border-radius: 20px;
+}
+.fin{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #D23F57;
+    font-size: 18px;
+    text-align: center;
+    background: #fce9ef;
+    border-radius: 20px;
+
+} 
+.bloc-cart-main{
+    display: flex;
+    gap: 60px !important;
+}
+.bloc-cart-main-left{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 65%;
+}
+.sous-bloc-cart-main-left{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    background: white;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.sous-bloc-cart-main-left img{
+    width: 100px;
+    height: 100px;
+}
+.bloc-cart-main-right{
+    width: 30%;
+}
+.sous-bloc-cart-main-left-panier{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sous-bloc-cart-main-left-panier-header{
+    color: black;
+    font-size: 20px;
+    width: 50%;
+}
+.sous-bloc-cart-main-left-panier-main{
+    display: flex;
+    gap: 10px;
+}
+.sous-bloc-cart-main-left-panier-main :nth-child(1){
+    color: darkgray;
+}
+.sous-bloc-cart-main-left-panier-main :nth-child(2){
+    color: #D23F57;
+    
+}
+.close-panier{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer;
+}
+.sous-bloc-cart-main-left-panier-footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+/***/
+.sous-panier{
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    width: 100%;
+}
+.sous-panier-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgray;
+}
+.sous-panier-header h4{
+    font-size: 28px;
+    color: darkgray;
+}
+.sous-panier-header span{
+    font-size: 15px !important;
+    padding:10px;
+    border-radius: 5px;
+    background: #fce9ef;
+    color: #D23F57;
+}
+.sous-panier-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+.sous-panier-main-span1{
+    font-size:17px;
+    color: darkgray;
+}
+.sous-panier-main-span{
+    font-size:20px;
+    color:black !important;
+}
+.sous-panier-footer{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid darkgrey;
+}
+.sous-panier-footer :nth-child(2){
+   font-size: 25px;
+   font-weight: 600;
+}
+/***/
+.bloc-cart-footer{
+    display: flex;
+    gap: 40px;
+    width: 65%;
+}
+.panier-achats{
+    border-radius: 5px;
+    text-align: center;
+    color: #D23F57;
+    padding: 10px;
+    border: 1px solid #D23F57;
+    font-size: 15px;
+    width: 50%;
+    cursor: pointer;
+}
+.panier-fourniseurs{
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    border:none;
+    font-size: 15px;
+    background: #D23F57;
+    width: 50%;
+    cursor: pointer;
+
+}
+@media screen and (max-width:767px) {
+    .bloc-cart{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+         background: #F6F9FC; 
+        display: flex;
+        flex-direction: column;
+        gap: 30px !important;
+        
+    }
+    .bloc-cart-main{
+        display: flex;
+        gap: 40px !important;
+        flex-direction: column;
+       width: 100%;
+    }
+    .bloc-cart-header{
+        display: flex;
+        align-items: center;
+        display: none;
+        width: 100%;
+    }
+    .bloc-cart-main-left{
+        display: flex;
+        gap: 20px;
+       flex-wrap: wrap;
+       width: 100%;
+    }
+    .sous-bloc-cart-main-left{
+        border-radius: 10px;
+        position: relative;
+        background: white;
+        padding: 10px;
+        display: flex;
+        gap: 20px;
+    }
+    .bloc-cart-main-right{
+        width: 100%;
+    }
+    .sous-panier{
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    .bloc-cart-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+    }
+    .panier-achats{
+        border-radius: 5px;
+        text-align: center;
+        color: #D23F57;
+        padding: 10px;
+        border: 1px solid #D23F57;
+        font-size: 15px;
+        width: 100%;
+        cursor: pointer;
+    }
+    .panier-fourniseurs{
+        border-radius: 5px;
+        text-align: center;
+        color:white;
+        padding: 10px;
+        border:none;
+        font-size: 15px;
+        background: #D23F57;
+        width: 100%;
+        cursor: pointer;
+    
+    }
+    .sous-bloc-cart-main-left{
+         width: 90%; 
+         margin: auto;
+        border-radius: 10px;
+        position: relative;
+        background: white;
+        padding: 10px;
+        padding-top: 60px;
+        display: flex;
+        gap: 20px;
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+    .sous-bloc-cart-main-left img{
+        display: flex;
+        margin: auto; 
+    }
+    .close-panier{
+        position: absolute;
+        right: 25px;
+        top: 20px;
+        width: 20px !important;
+        height: 20px !important;
+        cursor: pointer;
+    }
+    .sous-bloc-cart-main-left-panier-footer{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        width: 50%;
+    }
+}

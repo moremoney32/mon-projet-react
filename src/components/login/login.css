@@ -1,0 +1,210 @@
+.parent-login{
+    background: #F6F9FC;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.sous-parent-login{
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 7px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sous-parent-login-header{
+    text-align: center;
+    
+}
+.sous-parent-login-header h3{
+   color: black;
+   font-size: 25px;
+    
+}
+.sous-parent-login-header span{
+    color: black;
+     
+ }
+ form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.space{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.phone-input-container{
+   border-radius: 5px;
+  padding: 10px;
+  background:white;
+  height: 40px;
+  outline: none;
+  border: 1px solid darkgray;
+}
+.my-phone-input img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0px;
+    top: 0px; /* Ajustez cette valeur selon vos besoins */
+    cursor: pointer;
+  }
+  .my-phone-input {
+    border-radius: 5px;
+    padding: 10px;
+    background: white;
+    height: 40px;
+    outline: none;
+    border: 1px solid darkgray;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .my-phone-input:focus {
+    border: 1px solid #D23F57; /* Changer la couleur du bord lorsqu'il est en focus */
+  }
+  
+  .my-phone-input::placeholder {
+    color: darkgray; /* Changer la couleur du placeholder */
+  }
+
+.space img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 7px;
+    top: 45px;
+    cursor: pointer;
+}
+.space label{
+    text-align: left;
+}
+.space label {
+    color:#D23F57;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.space input {
+    height: 40px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.form button{
+    background:#D23F57;
+    font-size: 17px;
+    font-weight: 100;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.sous-parent-login-signup{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin: auto;
+}
+.nav-link{
+    text-decoration: none;
+    color: #D23F57;
+}
+.nav-panier{
+    text-decoration: none;
+    color: white;
+}
+.sous-parent-logout{
+    text-align: center;
+    height: 50px;
+    background: #F6F9FC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    line-height: 50px;
+}
+.forget-password{
+    margin-left: 10px;
+   
+}
+
+.hidden{
+    display: none;
+}
+.password-hint{
+    color: green;
+    font-size: 15px;
+}
+.error{
+    color: black;
+    font-weight: 700;
+}
+@media screen and (max-width:767px) {
+    .parent-login{
+        background: #F6F9FC;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+       text-align: center;
+    }
+    .sous-parent-login{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        background: white;
+        border-radius: 7px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sous-parent-login-header h3{
+        color: black;
+        font-size: 25px;
+        width: 100%;
+     }
+     .sous-parent-login-header span{
+        color: black; 
+        width: 100%;    
+     }
+     form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .sous-parent-logout{
+        text-align: center;
+        height: 30px;
+        background: #F6F9FC;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 90%;
+        line-height: 30px;
+    }
+    .forget-password{
+        margin-left: 0px;
+       
+    }
+}

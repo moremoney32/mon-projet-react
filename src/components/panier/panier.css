@@ -1,0 +1,89 @@
+@media screen and (max-width:767px) {
+.bloc-panier{
+    background: #F6F9FC;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 15px;
+}
+.sous-panier{
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    width: 95% !important;
+    margin: auto;
+    transform: translate3d(-2px,0,0);
+}
+.sous-panier-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid darkgray;
+    
+}
+.sous-panier-header h4{
+    font-size: 28px;
+    color: darkgray;
+}
+.sous-panier-header span{
+    font-size: 15px !important;
+    padding:10px;
+    border-radius: 5px;
+    background: #fce9ef;
+    color: #D23F57;
+}
+.sous-panier-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    
+}
+
+.sous-panier-main-span1{
+    font-size:17px;
+    color: darkgray;
+}
+.sous-panier-main-span{
+    font-size:20px;
+    color:black !important;
+}
+.sous-panier-footer{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid darkgrey;
+    
+}
+.sous-panier-footer :nth-child(2){
+   font-size: 25px;
+   font-weight: 600;;
+}
+.panier-achats{
+    border-radius: 5px;
+    text-align: center;
+    color: #D23F57;
+    padding: 10px;
+    border: 1px solid #D23F57;
+    font-size: 15px;
+}
+.panier-fourniseurs{
+    border-radius: 5px;
+    text-align: center;
+    color:white;
+    padding: 10px;
+    border:none;
+    font-size: 15px;
+    background: #D23F57;
+
+}
+}

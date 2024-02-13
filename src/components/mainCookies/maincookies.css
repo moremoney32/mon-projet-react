@@ -1,0 +1,33 @@
+.parent-main-cookies{
+    background:#F6F9FC;
+    padding-left: 100px;
+    padding-right: 100px;
+   margin-top: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: flex;
+   gap: 100px;
+}
+.leftCategories{
+    width: 20%;
+}
+@media screen and (max-width:767px) {
+    .parent-main-cookies{
+        background:#F6F9FC;
+        padding-left: 10px;
+        padding-right: 10px;
+       margin-top: 30px;
+       padding-top: 20px;
+       padding-bottom: 20px;
+    }
+    .leftCategories{
+        width: 70%;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .main-article-section1-responsive{
+        width: 100% !important;
+    }
+}

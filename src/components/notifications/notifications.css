@@ -1,0 +1,118 @@
+.notifications{
+    display: flex;
+    gap: 25px;
+    background: #F6F9FC;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 400px;
+    flex-direction: column;
+}
+.notifications h2{
+   font-size: 27px;
+}
+.parent-bloc-notifications{
+    padding: 20px;
+    height: 70px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+    padding: 20px;
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+.parent-bloc-notifications-left{
+    height:80px;
+    width: 20%;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.parent-bloc-notifications-left input{
+    width: 85%;
+    border-radius: 5px;
+    margin: auto;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    height: 30px;
+}
+.parent-bloc-notifications-left span{
+    border-bottom: 1px solid darkgray;
+    width: 100%;
+    transform: translate3d(0,-10px,0);
+}
+.parent-bloc-notifications-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 80%;
+}
+.parent-bloc-notifications-right1{
+
+    width: 100%;
+   height: 40px;
+    background: white;
+    border-top-right-radius: 10px;
+    border: 1px solid darkgray;
+    box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+    
+}
+.parent-bloc-notifications-right2{
+
+    width: 100%;
+    height: 40px;
+    background: white;
+    border: 1px solid darkgray;
+    border-bottom-right-radius: 10px;
+    box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+    
+}
+@media screen and (max-width:767px) {
+
+    .notifications{
+        display: flex;
+        gap: 25px;
+        background: #F6F9FC;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 100px;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .parent-bloc-notifications-left{
+        height:80px;
+        width: 40%;
+        border-left: 1px solid darkgray;
+        border-right: 1px solid darkgray;
+        border-bottom: 1px solid darkgray;
+        box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+        border-bottom-left-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .parent-bloc-notifications-left input{
+        width: 65%;
+        border-radius: 5px;
+        margin: auto;
+        border: 1px solid darkgray;
+        padding-left: 0px;
+        height: 30px;
+    }
+    .parent-bloc-notifications-right{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        width: 60%;
+    }
+}

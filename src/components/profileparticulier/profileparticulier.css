@@ -1,0 +1,225 @@
+.bloc-profile{
+    background: #F6F9FC;
+    padding-left: 150px;
+    padding-right: 150px;
+   margin-top: 30px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   display: flex;
+   gap: 30px;
+}
+.sous-bloc-profile1{
+    width: 20%;
+    background: white;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 15px;
+}
+.sous-bloc-profile1-mon-compte{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sous-bloc-profile1-mon-compte h3{
+    font-size: 13px;
+    color: darkgray;
+}
+.sous-bloc-profile1-mon-compte div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color:#2B3445;
+    cursor: pointer;
+}
+.sous-bloc-profile1-mon-compte div :hover{
+    color:#D23F57;
+    transition: 0.2s;
+}
+
+.sous-bloc-profile1-mon-compte div img{
+   width: 20px;
+   height: 20px;
+}
+.red{
+    color: #D23F57;
+    text-decoration: underline;
+}
+.sous-bloc-profile1-mes-parametres{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sous-bloc-profile1-mes-parametres h3{
+    font-size: 13px;
+    color: darkgray;
+}
+.sous-bloc-profile1-mes-parametres div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color:#2B3445;
+    cursor: pointer;
+}
+.sous-bloc-profile1-mes-parametres div :hover{
+    color:#D23F57;
+    transition: 0.2s;
+}
+.sous-bloc-profile1-mes-parametres div img{
+    width: 20px;
+    height: 20px;
+ }
+ .sous-bloc-profile2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    transform: translate3d(0,-20px,0);
+ }
+ .sous-bloc-profile2-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .sous-bloc-profile2-1 div{
+    display: flex;
+   gap: 10px;
+   align-items: center;
+ }
+ .profil-img{
+    width: 23px;
+    height: 23px;
+ }
+ .sous-bloc-profile2-1 div h3{
+   font-size: 30px; 
+   color: black;
+ }
+ .sous-bloc-profile2-1 span{
+    text-align: center;
+    padding: 10px;
+    background: #fce9ef;
+    color: #D23F57;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+ }
+ .sous-bloc-profile2-2{
+   display: flex;
+   gap: 20px;
+ }
+ .parent-profil-child-bloc1{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+ }
+ .sous-bloc-profile2-2 div div{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+ }
+ .sous-bloc-profile2-2 div div img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid darkgray;
+  }
+  .sous-bloc-profile2-2 div div div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sous-bloc-profile2-2 div div div :nth-child(2){
+   color: #D23F57;
+  }
+  .sous-bloc-profile2-2 div div div :nth-child(1){
+    color:black !important;
+   }
+  .sous-bloc-profile2-2 div span{
+   color: darkgray;
+   font-size: 18px;
+  }
+  .parent-profil-child-bloc2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .profil-child-bloc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:calc((100%/4) - 60px/4);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background:white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .profil-child-bloc-span1{
+    font-size: 18px;
+    color: #D23F57 !important;
+  }
+  .profil-child-bloc-span2{
+    font-size: 14px;
+    color: darkgray !important;
+    
+  }
+  .sous-bloc-profile2-3{
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .sous-bloc-profile2-3-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .sous-bloc-profile2-3-detail :nth-child(1){
+    font-size: 15px;
+    color: darkgray;
+  }
+  .sous-bloc-profile2-3-detail :nth-child(2){
+    font-size: 18px;
+    color:black;
+  }
+  .bar-profile{
+    display: none;
+    position: absolute;
+  }
+  .profile-particulier-mobile{
+    display: none;
+  }
+  .nav-link-categories{
+    text-decoration: none;
+    color: black;
+  }
+  @media screen and (max-width:767px) {
+    .sous-bloc-profile2{
+      display: none;
+    }
+    .sous-bloc-profile1{
+      display: none;
+    }
+    .bloc-profile{
+      display: none;
+    }
+    .profile-particulier-mobile{
+      display: block;
+    }
+  }

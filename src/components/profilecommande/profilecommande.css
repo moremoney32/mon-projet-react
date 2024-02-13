@@ -1,0 +1,166 @@
+.sous-bloc-profile2-bloc-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar-commande{
+   display:none;
+}
+.profile-commande-header{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.profile-commande-header img{
+    width: 20px;
+    height: 20px;
+}
+.profile-commande-header h3{
+   font-size: 25px;
+   color: black;
+}
+
+ .contenair-table{
+    
+  padding-top: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+    position: relative;
+  box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+  overflow-x: auto;
+} 
+table{
+    line-height: 15px; 
+    border-collapse: collapse; 
+    
+}
+tr{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+tr div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    width: 120px;
+}
+th{
+   padding: 15px;
+   cursor: pointer;
+   position: relative;
+}
+.icons-table{
+    width: 20px;
+    height: 20px;
+}
+
+.tbody{
+    background: white;
+    min-height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+.profile-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+.profile-icons img{
+    width: 20px;
+    height: 20px;
+    /* position: absolute;
+    top: 10px;
+    right: 10px; */
+}
+.footer-contenair-commandes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transform: translate3d(0,-25px,0);
+    box-shadow: 7px 7px 40px -20px rgba(0,0,0,0.9);
+    background: #F6F9FC;
+}
+.footer-contenair-commandes-right{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.footer-contenair-commandes-number{
+    position: relative;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    background: darkgray;
+    padding: 7px;
+}
+.check-number{
+    position: absolute;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 5px;
+    background:white;
+    color: black;
+    top: 32px;
+    left: 10px;
+}
+/* .background-rose{
+    cursor: pointer;
+    background: #fce9ef;
+} */
+.check-number span{
+    cursor: pointer;
+}
+.footer-contenair-commandes-number img{
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+}
+.direction-page{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.direction-page img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.bloc-left-categories{
+    width: 20%;
+}
+.sous-bloc-profile2-commande{
+    display:none;
+}
+@media screen and (max-width:767px) {
+    .sous-bloc-profile2-commande{
+        display: block;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .sous-bloc-profile2{
+        display: none;
+    }
+    .bar-commande{
+        display: block;
+    }
+    .black-mobile-commande{
+        background-color: rgba(128, 128, 128, 0.5);
+        position: absolute;
+        top: -22px;
+        left: 0;
+        right: 0;
+        bottom: 0;  
+     }
+}

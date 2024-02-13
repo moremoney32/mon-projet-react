@@ -1,0 +1,282 @@
+.parent-signup{
+    background: #F6F9FC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.sous-parent-signup{
+    margin: auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 7px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.sous-parent-signup-header{
+    text-align: center;
+}
+.sous-parent-signup-header h3{
+    color: black;
+    font-size: 30px;
+     
+ }
+ .sous-parent-signup-header span{
+     color: #D23F57;
+      
+  }
+  .form-signup {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+   gap: 30px;
+}
+.space-signup{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    position: relative;
+}
+.space-signup input{
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    width: 50%;
+}
+
+.parent-phone-select select{
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    width: 50%;
+    height: 55px;
+}
+.space-signup div{
+    width: 100%;
+    position: relative;
+}
+.space-signup div img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.input{
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    width: 100% !important;
+}
+.information-condition{
+    width: 100%;
+    
+    text-align: left;
+}
+.information-condition span{
+   font-size: 17px;
+}
+.information-condition input{
+  width: 30px !important;
+    
+ }
+.conditions{
+    font-size: 20px !important;
+    padding-bottom: 10px !important;
+    color:#D23F57;
+    cursor: pointer;
+
+}
+.button-signup{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: darkgray;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+.question-user{
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.question-user :nth-child(2){
+    color: #D23F57;
+}
+.sous-parent-logout-signup{
+    text-align: center;
+    height: 50px;
+    background: #F6F9FC;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 18px;
+}
+.forget-password-signup{
+    margin-left: 10px;
+}
+.phone{
+    width: 50%;
+}
+.parent-phone-select{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.error{
+    color: #D23F57;
+  font-size: 12px;
+ 
+}
+.valid-form {
+    background: #D23F57;
+    color: white;
+    cursor: pointer;
+  }
+  @media screen and (max-width:767px) {
+    .parent-signup{
+        background: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .sous-parent-signup{
+        width:80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        background:white;
+        border-radius: 7px;
+        padding: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sous-parent-signup-header{
+        text-align: center !important;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: auto;
+         
+     }
+    .sous-parent-signup-header h3{
+        color: black;
+        font-size: 25px;
+        width: 100%;
+         
+     }
+     .sous-parent-signup-header span{
+        color: #D23F57;
+        width: 100%;
+        font-size: 18px;
+         
+     }
+     .form-signup {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+       gap: 35px;
+       padding-top: 20px;
+    }
+    .space-signup{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+        position: relative;
+    }
+    .space-signup input{
+        height: 40px;
+        padding-left: 0px;
+        border: 1px solid darkgray;
+        border-radius: 5px;
+        outline: none;
+        font-size: 20px;
+        width: 100% !important;
+    }
+    ::placeholder{
+        padding-left: 20px;
+    }
+    .parent-phone-select{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .parent-phone-select select{
+        height: 50px;
+        padding-left: 10px;
+        border: 1px solid darkgray;
+        border-radius: 5px;
+        outline: none;
+        font-size: 20px;
+        width: 100%;
+        height: 55px;
+       
+    }
+    .phone{
+        width: 100%;
+
+    }
+    .information-condition{
+        width: 100%;
+        font-size: 22px;
+       
+    }
+    .button-signup{
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        font-size: 18px;
+        color: darkgray;
+        cursor: pointer;
+        
+    }
+    .question-user{
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        width: 100%;
+        margin: 0;
+    }
+    .sous-parent-logout-signup{
+        text-align: center;
+        height: 30px;
+        background: #F6F9FC;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    
+  }
